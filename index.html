@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sampleflix Survey Form</title>
+  <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+
+<body>
+
+    <h1 id="title">Sampleflix Survey Form</h1>
+
+    <p id="description"> <i>Your input is valued to help improve the platform </i></p>
+
+    <div id="body">
+
+      <form id="survey-form">
+
+        <label id="name-label" for="name">
+          <p>Name:</p>
+        </label>
+
+        <input id="name" type="text" placeholder="Enter your name" required>
+
+        <label id="email-label" for="email">
+          <p>Email:</p>
+        </label>
+
+        <input id="email" type="email" placeholder="Enter your email" required>
+
+        <label id="number-label" for="number">
+          <p>Age:</p>
+        </label>
+
+        <input id="number" type="number" placeholder="Age" min="18" max="70" required>
+
+        <p>Which option best describes your current status?</p>
+        <select id="dropdown">
+
+          <option value="default">Select Status</option>
+          <option value="Student">Student</option>
+          <option value="Working Student">Working Student </option>
+          <option value="Employed Full-time">Employed Full-time</option>
+          <option value="Employed Part-Time">Employed Part-Time</option>
+          <option value="Business Owner">Business Owner</option>
+          <option value="Others">Others</option>
+
+        </select>
+
+        <p>Would you recommend Sampleflix to a friend?</p>
+
+        <label for="yes">
+          <input id="yes" type="radio" value="yes" name="yes-no-maybe">Yes
+        </label>
+
+        <br>
+
+        <label for="no">
+          <input id="no" type="radio" value="no" name="yes-no-maybe">No
+        </label>
+
+        <br>
+
+        <label for="maybe">
+          <input id="maybe" type="radio" value="maybe" name="yes-no-maybe">Maybe
+        </label>
+
+        <p>Which online streaming service do you use the most?</p>
+        <select id="dropdown">
+
+          <option value="default">Select an option</option>
+          <option value="Netflix">Netflix</option>
+          <option value="Amazon Prime">Amazon Prime </option>
+          <option value="Hulu">Hulu</option>
+          <option value="ShowMax">ShowMax</option>
+          <option value="Others">Others</option>
+
+        </select>
+
+        <p>What platform do you use to stream Sampleflix content? (Check all that apply)</p>
+
+        <label for="laptop">
+          <input id="laptop" type="checkbox" name="streaming-platform" value="laptop">Laptop
+        </label> <br>
+
+        <label for="smart-Phone">
+          <input id="smart-Phone" type="checkbox" name="streaming-platform" value="smart-Phone">Smart-Phone
+        </label> <br>
+
+        <label for="xbox">
+          <input id="xbox" type="checkbox" name="streaming-platform" value="xbox">Xbox
+        </label> <br>
+
+        <label for="ps3">
+          <input id="ps3" type="checkbox" name="streaming-platform" value="ps3">PS3
+        </label> <br>
+
+        <label for="others">
+          <input id="others" type="checkbox" name="streaming-platform" value="others">Others
+        </label>
+
+        <p>What change would you like to see on Sampleflix? (Check all that apply)</p>
+
+        <label for="subscription">
+          <input id="subscription" type="checkbox" name="improve" value="subscription-fee">Reduced subscription fee
+        </label> <br>
+
+        <label for="movies">
+          <input id="movies" type="checkbox" name="improve" value="new-movies">New TV shows and movies
+        </label> <br>
+
+        <label for="watched">
+          <input id="watched" type="checkbox" name="improve" value="watched">Previously watched movies file
+        </label> <br>
+
+        <label for="rating">
+          <input id="rating" type="checkbox" name="improve" value="rating">See movie ratings
+        </label> <br>
+
+        <label for="search">
+          <input id="search" type="checkbox" name="improve" value="search">Improve search results
+        </label>
+        <br> <br>
+
+        <p>Any comments or suggestions?</p>
+        <textarea id="comment" name="comment" rows="5" cols="50">Enter comments here </textarea>
+        <br>
+        <input id="submit" type="submit" value="submit">
+
+      </form>
+
+    </div>
+  </body>
+
+
+</html>
